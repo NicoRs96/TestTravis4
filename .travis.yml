@@ -6,7 +6,7 @@ addons
 :
 sonarcloud
 :
-organization:nicors96
+organization:"nicors96"
 token:
 secure:f2a20bf62237c82dfb25d6852e7c0b304c43fde9
 script: - ant build - sonar-scanner

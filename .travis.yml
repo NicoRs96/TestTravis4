@@ -8,5 +8,5 @@ sonarcloud
 :
 organization:"nicors96"
 token:
-secure:6f99800a3048ab3dca6bbec9c9a5ef02a4d1b094
+secure:4264e9b520300683ed98718d7c107eeda1981c2b
 script: - ant build - sonar-scanner

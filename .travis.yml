@@ -1,12 +1,12 @@
 language: java
-jdk
-:
+jdk:
 - openjdk8
-addons
-:
-sonarcloud
-:
-organization: "nicors96"
-token:
-secure:4264e9b520300683ed98718d7c107eeda1981c2b
-script: - ant build - sonar-scanner
+
+addons:
+	sonarcloud:
+	  organization: "nicors96"
+	  token:
+	    secure: 859c1e7444219af4265e89b5b433843b2fad1671
+script: 
+- ant build 
+- sonar-scanner
